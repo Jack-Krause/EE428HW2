@@ -1,8 +1,10 @@
+data/
+*.tar.gz
+*.zip
+*.pt
+*.pth
+*.npz
+*.npy
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-.ssh/
-id_ed25519
-id_ed25519.pub
-*.pem
-*.key
