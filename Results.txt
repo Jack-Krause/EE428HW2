@@ -1,0 +1,222 @@
+(batch size:16, epochs:2, optim: SGD)
+Results:
+Epoch 1, Loss: 1.3238969431400298, Training Accuracy: 53.45%, Validation Accuracy: 50.63%
+Epoch 2, Loss: 1.2525422148823737, Training Accuracy: 56.065%, Validation Accuracy: 51.39%
+Finished Training
+Test Accuracy: 51.91%
+              precision    recall  f1-score   support
+
+    airplane       0.58      0.59      0.58      1000
+  automobile       0.60      0.63      0.62      1000
+        bird       0.43      0.37      0.40      1000
+         cat       0.37      0.33      0.35      1000
+        deer       0.45      0.31      0.37      1000
+         dog       0.48      0.37      0.42      1000
+        frog       0.50      0.68      0.58      1000
+       horse       0.55      0.64      0.60      1000
+        ship       0.60      0.69      0.64      1000
+       truck       0.54      0.57      0.56      1000
+
+    accuracy                           0.52     10000
+   macro avg       0.51      0.52      0.51     10000
+weighted avg       0.51      0.52      0.51     10000
+
+
+----------
+(batch size:32, epochs:2, optim: SGD)
+Epoch 1, Loss: 1.1231643280029298, Training Accuracy: 60.9825%, Validation Accuracy: 53.4%
+Epoch 2, Loss: 1.0772874926090241, Training Accuracy: 62.43%, Validation Accuracy: 54.62%
+Finished Training
+Test Accuracy: 53.52%
+              precision    recall  f1-score   support
+
+    airplane       0.66      0.56      0.61      1000
+  automobile       0.60      0.65      0.63      1000
+        bird       0.51      0.34      0.41      1000
+         cat       0.36      0.37      0.37      1000
+        deer       0.42      0.52      0.47      1000
+         dog       0.45      0.40      0.42      1000
+        frog       0.60      0.59      0.59      1000
+       horse       0.57      0.62      0.59      1000
+        ship       0.62      0.70      0.65      1000
+       truck       0.58      0.59      0.58      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.53     10000
+weighted avg       0.54      0.54      0.53     1000
+
+
+----------
+(batch size:128, epochs:2, optim: SGD)
+Epoch 1, Loss: 0.9762014544809969, Training Accuracy: 66.77%, Validation Accuracy: 55.01%
+Epoch 2, Loss: 0.9543902660711124, Training Accuracy: 67.4275%, Validation Accuracy: 54.69%
+Finished Training
+Test Accuracy: 54.13%
+              precision    recall  f1-score   support
+
+    airplane       0.62      0.62      0.62      1000
+  automobile       0.66      0.64      0.65      1000
+        bird       0.46      0.38      0.42      1000
+         cat       0.37      0.33      0.35      1000
+        deer       0.46      0.44      0.45      1000
+         dog       0.46      0.41      0.44      1000
+        frog       0.51      0.70      0.59      1000
+       horse       0.61      0.61      0.61      1000
+        ship       0.71      0.63      0.67      1000
+       truck       0.54      0.64      0.59      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.54     10000
+weighted avg       0.54      0.54      0.54     10000
+
+
+----------
+(batch size:32, epochs:2, optim: SGD(Mom=0.9))
+Epoch 1, Loss: 1.0084693564414977, Training Accuracy: 64.945%, Validation Accuracy: 53.62%
+Epoch 2, Loss: 0.97139180560112, Training Accuracy: 66.0975%, Validation Accuracy: 54.6%
+Finished Training
+Test Accuracy: 53.61%
+              precision    recall  f1-score   support
+
+    airplane       0.61      0.62      0.61      1000
+  automobile       0.65      0.64      0.64      1000
+        bird       0.43      0.45      0.44      1000
+         cat       0.35      0.43      0.38      1000
+        deer       0.49      0.42      0.46      1000
+         dog       0.46      0.29      0.36      1000
+        frog       0.58      0.62      0.60      1000
+       horse       0.55      0.68      0.61      1000
+        ship       0.72      0.60      0.65      1000
+       truck       0.56      0.61      0.59      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.53     10000
+weighted avg       0.54      0.54      0.53     10000
+
+
+----------
+(batch size:64, epochs:2, optim: SGD(Mom=0.9))
+Epoch 1, Loss: 0.8708234439849853, Training Accuracy: 70.3975%, Validation Accuracy: 55.71%
+Epoch 2, Loss: 0.8389999220848083, Training Accuracy: 71.3875%, Validation Accuracy: 54.96%
+Finished Training
+Test Accuracy: 54.41%
+              precision    recall  f1-score   support
+
+    airplane       0.63      0.62      0.62      1000
+  automobile       0.64      0.68      0.66      1000
+        bird       0.46      0.40      0.43      1000
+         cat       0.37      0.28      0.32      1000
+        deer       0.43      0.49      0.46      1000
+         dog       0.47      0.42      0.44      1000
+        frog       0.53      0.69      0.60      1000
+       horse       0.62      0.60      0.61      1000
+        ship       0.65      0.69      0.67      1000
+       truck       0.59      0.57      0.58      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.54     10000
+weighted avg       0.54      0.54      0.54     10000
+
+
+----------
+(batch size:128, epochs:2, optim: SGD(Mom=0.9))
+Epoch 1, Loss: 0.7804940702816168, Training Accuracy: 74.14%, Validation Accuracy: 55.83%
+Epoch 2, Loss: 0.7627545585647558, Training Accuracy: 74.7425%, Validation Accuracy: 55.19%
+Finished Training
+Test Accuracy: 54.3%
+              precision    recall  f1-score   support
+
+    airplane       0.61      0.60      0.61      1000
+  automobile       0.70      0.58      0.64      1000
+        bird       0.44      0.42      0.43      1000
+         cat       0.37      0.32      0.34      1000
+        deer       0.45      0.49      0.47      1000
+         dog       0.45      0.46      0.45      1000
+        frog       0.61      0.58      0.59      1000
+       horse       0.59      0.65      0.62      1000
+        ship       0.63      0.72      0.67      1000
+       truck       0.58      0.62      0.60      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.54     10000
+weighted avg       0.54      0.54      0.54     10000
+
+[ABOVE: all LRS = 0.01]
+
+
+----------
+(batch size:64, epochs:2, optim: Adam(LR=0.01))
+Epoch 1, Loss: 0.7527695461273194, Training Accuracy: 74.59%, Validation Accuracy: 54.82%
+Epoch 2, Loss: 0.7176105830192566, Training Accuracy: 75.885%, Validation Accuracy: 55.13%
+Finished Training
+Test Accuracy: 54.18%
+              precision    recall  f1-score   support
+
+    airplane       0.61      0.62      0.61      1000
+  automobile       0.71      0.56      0.63      1000
+        bird       0.47      0.40      0.43      1000
+         cat       0.35      0.32      0.34      1000
+        deer       0.45      0.50      0.47      1000
+         dog       0.46      0.47      0.46      1000
+        frog       0.58      0.60      0.59      1000
+       horse       0.58      0.64      0.61      1000
+        ship       0.65      0.68      0.66      1000
+       truck       0.56      0.62      0.59      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.54     10000
+weighted avg       0.54      0.54      0.54     10000
+
+
+----------
+(batch size:64, epochs:2, optim: Adam(LR=0.001))
+Epoch 1, Loss: 0.6909878255367279, Training Accuracy: 76.7425%, Validation Accuracy: 54.5%
+Epoch 2, Loss: 0.6641797765731812, Training Accuracy: 77.7475%, Validation Accuracy: 54.32%
+Finished Training
+Test Accuracy: 53.79%
+              precision    recall  f1-score   support
+
+    airplane       0.61      0.61      0.61      1000
+  automobile       0.62      0.66      0.64      1000
+        bird       0.44      0.41      0.43      1000
+         cat       0.36      0.37      0.36      1000
+        deer       0.50      0.38      0.43      1000
+         dog       0.49      0.36      0.42      1000
+        frog       0.50      0.73      0.59      1000
+       horse       0.62      0.61      0.61      1000
+        ship       0.70      0.64      0.66      1000
+       truck       0.57      0.60      0.58      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.53     10000
+weighted avg       0.54      0.54      0.53     10000
+
+
+----------
+(batch size:64, epochs:2, optim: Adam(LR=0.0001))
+Epoch 1, Loss: 0.6393701338768005, Training Accuracy: 78.7025%, Validation Accuracy: 54.98%
+Epoch 2, Loss: 0.6139836314201355, Training Accuracy: 79.6275%, Validation Accuracy: 54.69%
+Finished Training
+Test Accuracy: 54.23%
+              precision    recall  f1-score   support
+
+    airplane       0.61      0.66      0.63      1000
+  automobile       0.65      0.62      0.63      1000
+        bird       0.44      0.41      0.43      1000
+         cat       0.36      0.35      0.36      1000
+        deer       0.49      0.41      0.45      1000
+         dog       0.49      0.41      0.44      1000
+        frog       0.52      0.69      0.59      1000
+       horse       0.63      0.58      0.60      1000
+        ship       0.65      0.70      0.67      1000
+       truck       0.57      0.59      0.58      1000
+
+    accuracy                           0.54     10000
+   macro avg       0.54      0.54      0.54     10000
+weighted avg       0.54      0.54      0.54     10000
+
+
+
+
+
+
